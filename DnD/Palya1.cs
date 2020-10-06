@@ -8,6 +8,10 @@ namespace KalandJatek
 {
     class Palya
     {
+        List<Karakter> ellneseg = new List<Karakter>();
+
+
+        Karakter k = new Karakter();
 
     }
 }
