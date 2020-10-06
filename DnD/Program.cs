@@ -128,15 +128,35 @@ namespace KalandJatek
                     default:
                         Console.WriteLine("hibás parancs");
                         break;
-                        /*nyuszi;5;12
-nyuszi2;10;10
-nyuszi3;12;5
-trol;20;15
-köSzrny;30;20
-köSárkány;40;30
-irányitottHarcos;7;7
-mágus7;12
-mágikusSárkány20;50*/
+
+                        /*
+                         Üdvözölek bátor harco hogy hivhtlak?
+És milyen erös vagy!
+És menyire vagy szívos(menyi a életed)!
+Remek. Akkor kezdödhet is a kaland!
+Mész  az erdőben és nagy kincseket keresel. Egy szer csak előugrik egy vérszomjas nyúl az egyikk bokorbol. kicsitm megijdsz és felemeled a kardodat hogy megküzdj vele. Ám de amikor learaod cspni  hirtelen valaki megharapja a lábadat.  
+Hátranézel és még egy vérszomjas nyúl. Gondolkozol hogy elöször melyik fejét csabd le ám ekkor elöugrál az egyik bokorbol egy harmadik nyul is. 
+Te töntöd el milyen sorrendbe küzdesz meg velük!
+Ezutány a kemény csat utány kicsit ledölsz a földre és leszurod magad mellé a kardodat. 
+Ám amikor kényelmesen elhejezkednél a nap utolsó sugar  rásüt a tisdztásra  és megcsillna a kardodon ami vissza veri a fényt és eltalál egy fa törzset. 
+Ezzen a fán volt egy érzékelő amitöl megmozdul a talaj alattad és az egész tisztás a föld alá süjjed.
+Feálsz kihuzod a földbol a kardod és körbenézel. Két oriási feket e alagutat látsz. 
+
+B:
+
+Elindolsz a töled barra lévő alagut felé. 
+Megláts a egy alakot égy oriási trolt.
+Nem volt egyszerü de legyözted a trolt.
+A fojoso egyre sotétebb lesz viszpont még kivehetöen látod azt a hatalmas boltives kaput két kőszobor áll a két oldalán és egy vizköpő a tetején ül. mintha a vizköpö pislogot volna.
+A vizköpő legözése még enhezzeb volt minta a trolé de ezis sikerült.
+Átlépsz a kapun és egy hetelmas felásaskodó sárkány áll elötedd nnem kell megijedin köböl van ne fog bántan vagy mégis?
+A kösárkány majddnem megölt de még tulélted.
+A sárkány mögött egy lépcősorr van aminek a tetején egy tron.
+A tron háttámlájában egy zölden fénylő kristály van.
+amikor meg fogod a kristályt arra gondolsz hogy a fancba fogsz innen kimászni. ekkir hirtlen  othon találaod maga d és rájösz hogya kivánságok égkövét találtad meg.
+Azért érdekelt volna mi is volt jobra.
+
+ */
                 }
             }
         }
