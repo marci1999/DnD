@@ -8,5 +8,6 @@ namespace KalandJatek
 {
     class Karakter
     {
+        int a;
     }
 }
