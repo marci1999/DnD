@@ -28,6 +28,16 @@ namespace KalandJatek
                         Console.WriteLine(p.Ellneseg[1].ToString());
                         Console.WriteLine(p.Ellneseg[2].ToString());
                         break;
+                    case 'b':
+                        Console.WriteLine(p.Ellneseg[3].ToString());
+                        Console.WriteLine(p.Ellneseg[4].ToString());
+                        Console.WriteLine(p.Ellneseg[5].ToString());
+                        break;
+                    case 'j':
+                        Console.WriteLine(p.Ellneseg[6].ToString());
+                        Console.WriteLine(p.Ellneseg[7].ToString());
+                        Console.WriteLine(p.Ellneseg[8].ToString());
+                        break;
                     default:
                         break;
                 }
@@ -48,6 +58,37 @@ namespace KalandJatek
                                 int a = Convert.ToInt32(Console.ReadLine());
                                 Console.WriteLine("Megküzdesz {0}-val", p.Ellneseg[a-1].Nev);
                                 jatekos.Tamadas(jatekos, p.Ellneseg[a-1]);
+                                if (p.Ellneseg[a - 1].Eletero>0)
+                                {
+                                    Console.WriteLine("{0} visszatámad", p.Ellneseg[a - 1].Nev);
+                                    p.Ellneseg[a - 1].Tamadas(p.Ellneseg[a - 1], jatekos);
+                                }
+                                break;
+                            case 'b':
+                                Console.WriteLine("4   " + p.Ellneseg[3].ToString());
+                                Console.WriteLine("5   " + p.Ellneseg[4].ToString());
+                                Console.WriteLine("6   " + p.Ellneseg[5].ToString());
+                                int b = Convert.ToInt32(Console.ReadLine());
+                                Console.WriteLine("Megküzdesz {0}-val", p.Ellneseg[b - 1].Nev);
+                                jatekos.Tamadas(jatekos, p.Ellneseg[b - 1]);
+                                if (p.Ellneseg[b - 1].Eletero > 0)
+                                {
+                                    Console.WriteLine("{0} visszatámad", p.Ellneseg[b - 1].Nev);
+                                    p.Ellneseg[b - 1].Tamadas(p.Ellneseg[b - 1], jatekos);
+                                }
+                                break;
+                            case 'j':
+                                Console.WriteLine("7   " + p.Ellneseg[6].ToString());
+                                Console.WriteLine("8   " + p.Ellneseg[7].ToString());
+                                Console.WriteLine("9   " + p.Ellneseg[8].ToString());
+                                int c = Convert.ToInt32(Console.ReadLine());
+                                Console.WriteLine("Megküzdesz {0}-val", p.Ellneseg[c- 1].Nev);
+                                jatekos.Tamadas(jatekos, p.Ellneseg[c - 1]);
+                                if (p.Ellneseg[c - 1].Eletero > 0)
+                                {
+                                    Console.WriteLine("{0} visszatámad", p.Ellneseg[c - 1].Nev);
+                                    p.Ellneseg[c - 1].Tamadas(p.Ellneseg[c - 1], jatekos);
+                                }
                                 break;
                         }
 
