@@ -11,6 +11,8 @@ namespace KalandJatek
     {
         List<Karakter> ellneseg;
 
+        internal List<Karakter> Ellneseg { get => ellneseg; set => ellneseg = value; }
+
         public Palya(string filename)
         {
             ellneseg = new List<Karakter>();
@@ -34,6 +36,7 @@ namespace KalandJatek
 
        public void kezdes()
        {
+            Console.WriteLine("Első ellenfeleid:");
             Console.WriteLine(ellneseg[0].ToString());
             Console.WriteLine(ellneseg[1].ToString());
             Console.WriteLine(ellneseg[2].ToString());
@@ -44,14 +47,14 @@ namespace KalandJatek
             Console.WriteLine(ellneseg[3].ToString());
             Console.WriteLine(ellneseg[4].ToString());
             Console.WriteLine(ellneseg[5].ToString());
-            Console.WriteLine(kristály);
+            Console.WriteLine("kristály");
         }
         public void jobb()
         {
             Console.WriteLine(ellneseg[6].ToString());
             Console.WriteLine(ellneseg[7].ToString());
             Console.WriteLine(ellneseg[8].ToString());
-            Console.WriteLine(korona);
+            Console.WriteLine("korona");
         }
 
     }
