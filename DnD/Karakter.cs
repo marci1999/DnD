@@ -28,6 +28,12 @@ namespace KalandJatek
             this.sebzes = sebzes;
         }
 
+        public void Tamadas(Karakter tamadoKarakter,Karakter celpontKarakter)
+        {
+            //célpont sebződik
+            celpontKarakter.Eletero -= tamadoKarakter.Sebzes;
+        }
+
         public string Nev { get => nev; }
         public int Eletero { get => eletero; set => eletero = value; }
         public int Sebzes { get => sebzes; set => sebzes = value; }
