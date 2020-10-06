@@ -33,6 +33,10 @@ namespace KalandJatek
             //célpont sebződik
             celpontKarakter.Eletero -= tamadoKarakter.Sebzes;
         }
+        public void Gyogyulas(Karakter karakter)
+        {
+            karakter.Eletero += 20;
+        }
 
         public string Nev { get => nev; }
         public int Eletero { get => eletero; set => eletero = value; }
