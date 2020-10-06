@@ -35,9 +35,9 @@ namespace KalandJatek
 
        public void kezdes()
        {
-            ellneseg.ElementAt<>(0);
-            ellneseg.ElementAt<>(1);
-            ellneseg.ElementAt<>(2);
+            ellneseg.ElementAt(0);
+            ellneseg.ElementAt(1);
+            ellneseg.ElementAt(2);
 
        }
 
