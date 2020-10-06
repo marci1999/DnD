@@ -29,19 +29,30 @@ namespace KalandJatek
             catch (IOException ioEx)
             {
                 Console.WriteLine(ioEx.Message);
-                throw;
             }
         }
 
        public void kezdes()
        {
-            ellneseg.ElementAt(0);
-            ellneseg.ElementAt(1);
-            ellneseg.ElementAt(2);
-
+            Console.WriteLine(ellneseg[0].ToString());
+            Console.WriteLine(ellneseg[1].ToString());
+            Console.WriteLine(ellneseg[2].ToString());
        }
 
-        Karakter k = new Karakter("proba",10,10);
+        public void ball()
+        {
+            Console.WriteLine(ellneseg[3].ToString());
+            Console.WriteLine(ellneseg[4].ToString());
+            Console.WriteLine(ellneseg[5].ToString());
+            Console.WriteLine(kristály);
+        }
+        public void jobb()
+        {
+            Console.WriteLine(ellneseg[6].ToString());
+            Console.WriteLine(ellneseg[7].ToString());
+            Console.WriteLine(ellneseg[8].ToString());
+            Console.WriteLine(korona);
+        }
 
     }
 }

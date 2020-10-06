@@ -1,9 +1,0 @@
-nyuszi;5;12
-nyuszi2;10;10
-nyuszi3;12;5
-trol;20;15
-köSzrny;30;20
-köSárkány;40;30
-irányitottHarcos;7;7
-mágus7;12
-mágikusSárkány20;50

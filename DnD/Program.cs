@@ -10,6 +10,9 @@ namespace KalandJatek
     {
         static void Main(string[] args)
         {
+            Palya p = new Palya("ellnesegek.txt");
+
+            p.kezdes();
 
             bool jatekTart = true;
             while (jatekTart)
