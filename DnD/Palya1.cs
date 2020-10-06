@@ -8,8 +8,29 @@ namespace KalandJatek
 {
     class Palya
     {
-        List<Karakter> ellneseg = new List<Karakter>();
+        List<Karakter> ellneseg;
 
+        public Palya(string filename)
+        {
+            ellneseg = new List<Karakter>();
+            try
+            {
+                ellneseg = new List<Karakter>();
+                StreamReader sr = new StreamReader(filename);
+                string sor = sr.ReadLine();
+                while (sor != null)
+                {
+                    ellneseg.Add(new Karakter(sor));
+                    sor = sr.ReadLine();
+                }
+                sr.Close();
+            }
+            catch (IOException ioEx)
+            {
+                Console.WriteLine(ioEx.Message);
+                throw;
+            }
+        }
 
         Karakter k = new Karakter();
 
