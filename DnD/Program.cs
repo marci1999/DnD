@@ -10,6 +10,7 @@ namespace KalandJatek
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

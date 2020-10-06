@@ -17,8 +17,8 @@ namespace KalandJatek
             string[] adat = sor.Split(';');
 
             this.nev = adat[0];
-            this.eletero = adat[1];
-            this.segbzes = adat[2];
+            this.eletero = Convert.ToInt32(adat[1]);
+            this.sebzes = Convert.ToInt32(adat[2]);
         }
 
         public Karakter(string nev, int eletero, int sebzes)
