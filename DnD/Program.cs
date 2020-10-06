@@ -11,6 +11,34 @@ namespace KalandJatek
         static void Main(string[] args)
         {
 
+            bool jatekTart = true;
+            while (jatekTart)
+            {
+                Console.WriteLine("Mit szeretnél csinálni? h - harc, g - gyogyulni, b - balra megy, j - jobbra megy, k - kilépés");
+                char parancs = Convert.ToChar(Console.ReadLine());
+                switch (parancs)
+                {
+                    case 'h':
+                        Console.WriteLine("most harcolsz");
+                        break;
+                    case 'g':
+                        Console.WriteLine("gyogyulsz");
+                        break;
+                    case 'b':
+                        Console.WriteLine("balra mész");
+                        break;
+                    case 'j':
+                        Console.WriteLine("jobbra mész");
+                        break;
+                    case 'k':
+                        Console.WriteLine("Kiléptél");
+                        jatekTart = false;
+                        break;
+                    default:
+                        Console.WriteLine("hibás parancs");
+                        break;
+                }
+            }
         }
     }
 }

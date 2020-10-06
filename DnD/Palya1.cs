@@ -41,7 +41,7 @@ namespace KalandJatek
 
        }
 
-        Karakter k = new Karakter();
+        Karakter k = new Karakter("proba",10,10);
 
     }
 }
