@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace KalandJatek
 {
-    class Program
+    class Palya
     {
-        static void Main(string[] args)
-        {
-        }
+
     }
 }

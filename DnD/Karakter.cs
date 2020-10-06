@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace KalandJatek
 {
-    class Program
+    class Karakter
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
