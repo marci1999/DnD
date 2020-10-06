@@ -19,8 +19,13 @@ namespace KalandJatek
             this.sebzes = sebzes;
         }
 
-        public string Nev { get => nev; set => nev = value; }
+        public string Nev { get => nev; }
         public int Eletero { get => eletero; set => eletero = value; }
         public int Sebzes { get => sebzes; set => sebzes = value; }
+
+        public override string ToString()
+        {
+            return String.Format("Nev: {0}, Eletero: {1}, Sebzes: {2}",this.Nev,this.Eletero,this.Sebzes);
+        }
     }
 }
