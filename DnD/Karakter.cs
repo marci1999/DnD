@@ -44,7 +44,15 @@ namespace KalandJatek
 
         public override string ToString()
         {
-            return String.Format("Nev: {0}, Eletero: {1}, Sebzes: {2}",this.Nev,this.Eletero,this.Sebzes);
+            
+            if (this.Eletero <= 0)
+            {
+                return String.Format("Nev: {0} halott",this.Nev);
+            } 
+            else
+	        {
+                return String.Format("Nev: {0}, Eletero: {1}, Sebzes: {2}",this.Nev,this.Eletero,this.Sebzes);
+	        }
         }
     }
 }

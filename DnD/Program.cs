@@ -12,10 +12,16 @@ namespace KalandJatek
         {
             Palya p = new Palya("ellnesegek.txt");
 
-            p.kezdes();
+            //p.kezdes();
             bool jatekTart = true;
             char holAJatekos = 'k'; //kozep
-            Karakter jatekos = new Karakter("Jatekos Karaktere",100,10);
+            Console.WriteLine("Üdvözölek bátor harco hogy hivhtlak?");
+            string nev = Console.ReadLine();
+            Console.WriteLine("És milyen erös vagy!");
+            int ero = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("És menyire vagy szívos(menyi a életed)!");
+            int elet = Convert.ToInt32(Console.ReadLine());
+            Karakter jatekos = new Karakter(""+nev+"",ero,elet);
             while (jatekTart)
             {
                 Console.WriteLine("\nJátékos:");
