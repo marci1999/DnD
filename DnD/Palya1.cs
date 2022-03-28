@@ -34,28 +34,5 @@ namespace KalandJatek
             }
         }
 
-       public void kezdes()
-       {
-            Console.WriteLine("Első ellenfeleid:");
-            Console.WriteLine(ellneseg[0].ToString());
-            Console.WriteLine(ellneseg[1].ToString());
-            Console.WriteLine(ellneseg[2].ToString());
-       }
-
-        public void ball()
-        {
-            Console.WriteLine(ellneseg[3].ToString());
-            Console.WriteLine(ellneseg[4].ToString());
-            Console.WriteLine(ellneseg[5].ToString());
-            Console.WriteLine("kristály");
-        }
-        public void jobb()
-        {
-            Console.WriteLine(ellneseg[6].ToString());
-            Console.WriteLine(ellneseg[7].ToString());
-            Console.WriteLine(ellneseg[8].ToString());
-            Console.WriteLine("korona");
-        }
-
     }
 }

@@ -33,9 +33,9 @@ namespace KalandJatek
             //célpont sebződik
             celpontKarakter.Eletero -= tamadoKarakter.Sebzes;
         }
-        public void Gyogyulas(Karakter karakter)
+        public void Gyogyulas(Karakter karakter, int ertek)
         {
-            karakter.Eletero += 20;
+            karakter.Eletero += ertek;
         }
 
         public string Nev { get => nev; }
@@ -47,11 +47,11 @@ namespace KalandJatek
             
             if (this.Eletero <= 0)
             {
-                return String.Format("Nev: {0} halott",this.Nev);
+                return String.Format("Név: {0} halott",this.Nev);
             } 
             else
 	        {
-                return String.Format("Nev: {0}, Eletero: {1}, Sebzes: {2}",this.Nev,this.Eletero,this.Sebzes);
+                return String.Format("Név: {0}, Életerő: {1}, Sebzés: {2}",this.Nev,this.Eletero,this.Sebzes);
 	        }
         }
     }
